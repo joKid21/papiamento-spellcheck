@@ -12,6 +12,8 @@ class SpellingChecker:
     def __init__(self):
         self.root = tk.Tk()
         self.root.title("Papiamento Spelling Checker")
+        img = tk.Image("photo", file="myIcon.png")
+        self.root.tk.call('wm','iconphoto', self.root._w, img)
         self.root.geometry("600x500")
 
         self.menu = Menu(self.root, tearoff=0)
