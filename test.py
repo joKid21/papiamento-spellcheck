@@ -79,4 +79,3 @@ class SpellingChecker:
         self.text.update()
 
 SpellingChecker()
-
