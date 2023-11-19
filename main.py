@@ -66,6 +66,7 @@ class SpellingChecker:
             self.menu.post(event.x_root, event.y_root)
 
     def get_word_suggestions(self, word):
+        
         return ["suggestion1", "suggestion2", "suggestion3"]
 
     def replace_word(self, suggestion):
